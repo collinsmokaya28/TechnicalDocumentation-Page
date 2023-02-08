@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <style>
+      #navbar {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 200px;
+        background-color: Black;
+        padding: 20px;
+      }
+      .main-section {
+        margin-left: 220px;
+        padding: 20px;
+      }
+      @media (max-width: 767px) {
+        #navbar {
+          width: 100%;
+          position: static;
+        }
+        .main-section {
+          margin-left: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main-doc">
+      <nav id="navbar">
+        <header>Table of Contents</header>
+        <a href="#introduction" class="nav-link">Introduction</a>
+        <a href="#getting_started" class="nav-link">Getting Started</a>
+        <a href="#how_to_use" class="nav-link">How to Use</a>
+        <a href="#examples" class="nav-link">Examples</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+      </nav>
+      <section id="introduction" class="main-section">
+        <header>Introduction</header>
+        <p>This is the introduction section of the technical documentation page. It provides an overview of the product or service and explains what the technical documentation page is all about.</p>
+        <p>This section should be short and concise, and give readers a good understanding of what the page is about and what they can expect to learn from it.</p>
+        <p>The introduction section can include information such as:</p>
+        <ul>
+          <li>The purpose of the product or service</li>
+          <li>A brief history of the product or service</li>
+          <li>The target audience for the product or service</li>
+        </ul>
+      </section>
+      <section id="getting_started" class="main-section">
+        <header>Getting Started</header>
+        <p>This section provides a step-by-step guide to help users get started with the product or service. It explains how to set up and install the product, and provides an overview of its basic features and functions.</p>
+        <p>The getting started section should include information such as:</p>
+        <ul>
+          <li>System requirements for the product or service</li>
+          <li>Step-by-step installation guide</li>
+          <li>Overview of the user interface and key features</li>
+        </ul>
+        <p>This section should be comprehensive enough to help users get up and running with the product or service quickly and easily.</p>
+        <code>
+          npm install my-product
+        </code>
+      </section>
+      <section id="how_to_use" class="main-section">
+        <header>How to Use</header>
+        <p> Go to playStore or AppleStore for downloads with extra instructions <p>
